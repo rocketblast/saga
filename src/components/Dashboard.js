@@ -2,6 +2,7 @@ import React from 'react'
 
 import PriceList from './PriceList'
 import Logotype from './Logotype'
+import Map from './Map'
 
 const layer = {
   position: 'absolute',
@@ -37,6 +38,7 @@ const Dashoard = () => <>
     </div>
   </div>
   <PriceList />
+  <Map />
   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
   Saga
 </>
