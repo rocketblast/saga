@@ -66,11 +66,11 @@ const PriceList = () => <div style={ {
 } }>
     <div style={ { display: 'grid', gridTemplateColumns: '5fr 1fr 1fr 1fr', width: '30%', minWidth: 550 } }>
       { data.map(({ title, description, prices }, row) => (<>
-        <div style={ { gridRow: row * 2 + 1, ...fontTitle } }>{ title }</div>
+        <div style={ { gridRow: row * 2 + 1, ...fontTitle } }><h3>{ title }</h3></div>
         <div style={ { gridRow: row * 2 + 2, ...fontDescription,  } }>{ description }</div>
         { prices.map((price, index) => (
           <>
-            <div style={ { gridArea: `${row * 2 + 1} / ${index + 2}`, ...fontPrice } }>{price.value} {price.unit}</div>
+            <div style={ { gridArea: `${row * 2 + 1} / ${index + 2}`, ...fontPrice } }><h3>{price.value} {price.unit}</h3></div>
             <div style={ { gridArea: `${row * 2 + 2} / ${index + 2}`, ...fontPriceType } }>{price.type}</div>
           </>
         ))
@@ -79,11 +79,11 @@ const PriceList = () => <div style={ {
     </div>
     <div style={ { display: 'grid', gridTemplateColumns: '5fr 1fr 1fr 1fr', width: '30%', minWidth: 550 } }>
       { data.map(({ title, description, prices }, row) => (<>
-        <div style={ { gridRow: row * 2 + 1, ...fontTitle } }>{ title }</div>
+        <div style={ { gridRow: row * 2 + 1, ...fontTitle } }><h3>{ title }</h3></div>
         <div style={ { gridRow: row * 2 + 2, ...fontDescription,  } }>{ description }</div>
         { prices.map((price, index) => (
           <>
-            <div style={ { gridArea: `${row * 2 + 1} / ${index + 2}`, ...fontPrice } }>{price.value} {price.unit}</div>
+            <div style={ { gridArea: `${row * 2 + 1} / ${index + 2}`, ...fontPrice } }><h3>{price.value} {price.unit}</h3></div>
             <div style={ { gridArea: `${row * 2 + 2} / ${index + 2}`, ...fontPriceType } }>{price.type}</div>
           </>
         ))
@@ -92,11 +92,11 @@ const PriceList = () => <div style={ {
     </div>
     <div style={ { display: 'grid', gridTemplateColumns: '5fr 1fr 1fr 1fr', width: '30%', minWidth: 550 } }>
       { data.map(({ title, description, prices }, row) => (<>
-        <div style={ { gridRow: row * 2 + 1, ...fontTitle } }>{ title }</div>
+        <div style={ { gridRow: row * 2 + 1, ...fontTitle } }><h3>{ title }</h3></div>
         <div style={ { gridRow: row * 2 + 2, ...fontDescription,  } }>{ description }</div>
         { prices.map((price, index) => (
           <>
-            <div style={ { gridArea: `${row * 2 + 1} / ${index + 2}`, ...fontPrice } }>{price.value} {price.unit}</div>
+            <div style={ { gridArea: `${row * 2 + 1} / ${index + 2}`, ...fontPrice } }><h3>{price.value} {price.unit}</h3></div>
             <div style={ { gridArea: `${row * 2 + 2} / ${index + 2}`, ...fontPriceType } }>{price.type}</div>
           </>
         ))
