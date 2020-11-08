@@ -142,7 +142,7 @@ const GoogleMap = () => {
     }
   },[])
 
-  return <div id="map" style={{ width: '100%', height: '300px' }} />
+  return <div id="map" style={{ width: '100%', height: '400px' }} />
 }
 
 export default GoogleMap

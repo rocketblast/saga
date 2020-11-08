@@ -44,3 +44,9 @@ address {
 address a {
   color: #333;
 }
+
+@media screen and (max-width: 800px) {
+  address {
+    font-size: 0.7em;
+  }
+}
