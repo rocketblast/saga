@@ -524,7 +524,8 @@ const hairtalk = {
         },
         {
           value: 2100,
-          unit: '1½ timme',
+          unit: 'kr',
+          type: '1½ timme',
         },
       ],
     },
